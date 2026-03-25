@@ -1,0 +1,11 @@
+[
+	{
+		"Summary": "Welcome task - System initialized",
+		"Description": "This is a sample task created during system initialization. You can delete it once you start using the application.",
+		"Status": "Open",
+		"CreationDate": "2026-01-15",
+		"DueDate": "2026-01-31",
+		"assigneeFirstname": "Sophie",
+		"assigneeLastname": "Martin"
+	}
+]

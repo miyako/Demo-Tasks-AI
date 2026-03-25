@@ -1,77 +1,77 @@
 [
-	{
-		"Name": "Martin",
-		"Firstname": "Sophie",
-		"departmentName": "Sales"
-	},
-	{
-		"Name": "Petit",
-		"Firstname": "Alexandre",
-		"departmentName": "Sales"
-	},
-	{
-		"Name": "Garcia",
-		"Firstname": "Maria",
-		"departmentName": "Sales"
-	},
-	{
-		"Name": "Bernard",
-		"Firstname": "Thomas",
-		"departmentName": "After Sales"
-	},
-	{
-		"Name": "Nguyen",
-		"Firstname": "Linh",
-		"departmentName": "After Sales"
-	},
-	{
-		"Name": "Schmidt",
-		"Firstname": "Hans",
-		"departmentName": "After Sales"
-	},
-	{
-		"Name": "Dubois",
-		"Firstname": "Emma",
-		"departmentName": "Marketing"
-	},
-	{
-		"Name": "Wilson",
-		"Firstname": "James",
-		"departmentName": "Marketing"
-	},
-	{
-		"Name": "Moreau",
-		"Firstname": "Lucas",
-		"departmentName": "IT"
-	},
-	{
-		"Name": "Chen",
-		"Firstname": "Wei",
-		"departmentName": "IT"
-	},
-	{
-		"Name": "Laurent",
-		"Firstname": "Claire",
-		"departmentName": "HR"
-	},
-	{
-		"Name": "Johnson",
-		"Firstname": "Emily",
-		"departmentName": "HR"
-	},
-	{
-		"Name": "Leroy",
-		"Firstname": "Antoine",
-		"departmentName": "Legal"
-	},
-	{
-		"Name": "Roux",
-		"Firstname": "Julie",
-		"departmentName": "Finance"
-	},
-	{
-		"Name": "Kumar",
-		"Firstname": "Raj",
-		"departmentName": "Finance"
-	}
+{
+"Name": "マルタン",
+"Firstname": "ソフィー",
+"departmentName": "営業"
+},
+{
+"Name": "プティ",
+"Firstname": "アレクサンドル",
+"departmentName": "営業"
+},
+{
+"Name": "ガルシア",
+"Firstname": "マリア",
+"departmentName": "営業"
+},
+{
+"Name": "ベルナール",
+"Firstname": "トマ",
+"departmentName": "アフターセールス"
+},
+{
+"Name": "グエン",
+"Firstname": "リン",
+"departmentName": "アフターセールス"
+},
+{
+"Name": "シュミット",
+"Firstname": "ハンス",
+"departmentName": "アフターセールス"
+},
+{
+"Name": "デュボワ",
+"Firstname": "エマ",
+"departmentName": "マーケティング"
+},
+{
+"Name": "ウィルソン",
+"Firstname": "ジェームズ",
+"departmentName": "マーケティング"
+},
+{
+"Name": "モロー",
+"Firstname": "リュカ",
+"departmentName": "IT"
+},
+{
+"Name": "チェン",
+"Firstname": "ウェイ",
+"departmentName": "IT"
+},
+{
+"Name": "ローラン",
+"Firstname": "クレール",
+"departmentName": "人事"
+},
+{
+"Name": "ジョンソン",
+"Firstname": "エミリー",
+"departmentName": "人事"
+},
+{
+"Name": "ルロワ",
+"Firstname": "アントワーヌ",
+"departmentName": "法務"
+},
+{
+"Name": "ルー",
+"Firstname": "ジュリー",
+"departmentName": "財務"
+},
+{
+"Name": "クマール",
+"Firstname": "ラジ",
+"departmentName": "財務"
+}
 ]

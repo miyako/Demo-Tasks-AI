@@ -1,11 +1,11 @@
 [
-	{
-		"Summary": "Welcome task - System initialized",
-		"Description": "This is a sample task created during system initialization. You can delete it once you start using the application.",
-		"Status": "Open",
-		"CreationDate": "2026-01-15",
-		"DueDate": "2026-01-31",
-		"assigneeFirstname": "Sophie",
-		"assigneeLastname": "Martin"
-	}
+{
+"Summary": "ウェルカムタスク - システムの初期化完了",
+"Description": "これはシステムの初期化中に作成されたサンプルタスクです。アプリケーションの利用を開始した後は削除して構いません。",
+"Status": "オープン",
+"CreationDate": "2026-01-15",
+"DueDate": "2026-01-31",
+"assigneeFirstname": "ソフィー",
+"assigneeLastname": "マルタン"
+}
 ]

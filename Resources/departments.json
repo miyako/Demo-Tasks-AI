@@ -1,44 +1,44 @@
 [
-	{
-		"Name": "Sales",
-		"Description": "Travel bookings, packages, and new customer inquiries",
-		"managerFirstname": "Sophie",
-		"managerLastname": "Martin"
-	},
-	{
-		"Name": "After Sales",
-		"Description": "Customer support, complaints, refunds, and booking modifications",
-		"managerFirstname": "Thomas",
-		"managerLastname": "Bernard"
-	},
-	{
-		"Name": "Marketing",
-		"Description": "Promotions, partnerships, social media, and brand campaigns",
-		"managerFirstname": "Emma",
-		"managerLastname": "Dubois"
-	},
-	{
-		"Name": "IT",
-		"Description": "Technical support, website, booking systems, and infrastructure",
-		"managerFirstname": "Lucas",
-		"managerLastname": "Moreau"
-	},
-	{
-		"Name": "HR",
-		"Description": "Recruitment, employee relations, training, and workplace policies",
-		"managerFirstname": "Claire",
-		"managerLastname": "Laurent"
-	},
-	{
-		"Name": "Legal",
-		"Description": "Contracts, compliance, disputes, and regulatory matters",
-		"managerFirstname": "Antoine",
-		"managerLastname": "Leroy"
-	},
-	{
-		"Name": "Finance",
-		"Description": "Accounting, invoicing, payments, and financial planning",
-		"managerFirstname": "Julie",
-		"managerLastname": "Roux"
-	}
+{
+"Name": "営業",
+"Description": "旅行の予約、パッケージ、および新規顧客からの問い合わせ",
+"managerFirstname": "ソフィー",
+"managerLastname": "マルタン"
+},
+{
+"Name": "アフターセールス",
+"Description": "カスタマーサポート、クレーム対応、返金、および予約の変更",
+"managerFirstname": "トマ",
+"managerLastname": "ベルナール"
+},
+{
+"Name": "マーケティング",
+"Description": "プロモーション、パートナーシップ、ソーシャルメディア、およびブランドキャンペーン",
+"managerFirstname": "エマ",
+"managerLastname": "デュボワ"
+},
+{
+"Name": "IT",
+"Description": "テクニカルサポート、ウェブサイト、予約システム、およびインフラストラクチャ",
+"managerFirstname": "リュカ",
+"managerLastname": "モロー"
+},
+{
+"Name": "人事",
+"Description": "採用、従業員関係、研修、および職場ポリシー",
+"managerFirstname": "クレール",
+"managerLastname": "ローラン"
+},
+{
+"Name": "法務",
+"Description": "契約、コンプライアンス、紛争、および規制事項",
+"managerFirstname": "アントワーヌ",
+"managerLastname": "ルロワ"
+},
+{
+"Name": "財務",
+"Description": "会計、請求、支払い、および財務計画",
+"managerFirstname": "ジュリー",
+"managerLastname": "ルー"
+}
 ]

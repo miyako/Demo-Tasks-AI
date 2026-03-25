@@ -1,142 +1,142 @@
 [
-	{
-		"Sender": "john.smith@vacationplanner.com",
-		"Subject": "Urgent: Flight rebooking needed for Thompson family",
-		"Body": "Hello,\n\nWe have an urgent situation. The Thompson family (4 passengers) was supposed to fly to Cancun tomorrow, but their flight has been cancelled by the airline.\n\nCan you please help rebook them on the next available flight? They need to arrive by January 18th at the latest for their resort reservation.\n\nTheir original booking reference is TH-2024-1234.\n\nThis is very urgent!\n\nBest regards,\nJohn Smith",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "maria.garcia@beachresorts.com",
-		"Subject": "Group booking inquiry - Corporate retreat 25 people",
-		"Body": "Dear Travel Agency,\n\nI'm reaching out on behalf of TechCorp Inc. We are planning a corporate retreat for 25 employees in March 2026.\n\nWe're looking for:\n- All-inclusive beach resort\n- Conference room facilities\n- Team building activities\n- Duration: 5 nights\n- Budget: approximately $50,000\n\nCould you please send us some options for destinations in the Caribbean or Mexico?\n\nWe'd like to finalize the booking within the next two weeks.\n\nThank you,\nMaria Garcia\nHR Director, TechCorp Inc.",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "newsletter@travelweekly.com",
-		"Subject": "This Week in Travel: Top Winter Destinations",
-		"Body": "TRAVEL WEEKLY NEWSLETTER\n\n=== TOP WINTER DESTINATIONS 2026 ===\n\n1. Swiss Alps - Perfect powder conditions\n2. Maldives - Escape the cold\n3. Japan - Ski and culture combined\n\nClick here to unsubscribe from this newsletter.\n\n© 2026 Travel Weekly",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "angry.customer@email.com",
-		"Subject": "COMPLAINT - Terrible hotel experience!",
-		"Body": "To whom it may concern,\n\nI am extremely disappointed with the hotel you booked for my honeymoon trip!\n\nThe Royal Paradise Hotel in Bali was NOTHING like the pictures. Issues:\n- Room was dirty upon arrival\n- No ocean view as promised\n- Air conditioning didn't work\n- Breakfast was cold\n\nBooking reference: BK-2025-9876\n\nI demand a full refund or compensation. If I don't hear back within 48 hours, I will leave negative reviews everywhere.\n\nVery disappointed,\nRobert Wilson",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "emily.chen@luxurytravel.vip",
-		"Subject": "VIP Client - Private yacht charter inquiry",
-		"Body": "Hello,\n\nI have a VIP client interested in a private yacht charter in the Mediterranean for summer 2026.\n\nRequirements:\n- 2 weeks duration (July)\n- 8-10 guests\n- Luxury yacht with crew\n- Route: French Riviera to Greek Islands\n- Budget: $200,000+\n\nThis client is a repeat high-value customer. Please prioritize this request and send available options ASAP.\n\nBest,\nEmily Chen\nLuxury Travel Concierge",
-		"ReceptionDate": "2026-01-13",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "support@airlinealerts.com",
-		"Subject": "Flight Status Update - Confirmation",
-		"Body": "AUTOMATED MESSAGE\n\nYour flight status alert has been set up successfully.\n\nFlight: AA1234\nRoute: NYC - LAX\nDate: January 20, 2026\n\nYou will receive notifications about any changes to this flight.\n\nThis is an automated message, please do not reply.",
-		"ReceptionDate": "2026-01-12",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "peter.johnson@familytrips.com",
-		"Subject": "Help planning Disney World trip for family of 6",
-		"Body": "Hi there!\n\nWe're a family of 6 (2 adults, 4 kids ages 5-12) planning our first trip to Disney World in Orlando.\n\nWe'd like to go during Easter break (April 10-17, 2026) and need help with:\n- Park tickets (which parks to visit?)\n- Hotel recommendation (on-site vs off-site?)\n- Dining reservations\n- FastPass strategy\n\nBudget is around $8,000 for everything including flights from Chicago.\n\nCan someone help us plan this magical trip?\n\nThanks!\nPeter Johnson",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "legal@smithandpartners.law",
-		"Subject": "Notice of potential litigation - Client injury claim",
-		"Body": "Dear Sir/Madam,\n\nWe represent Mr. David Patterson who sustained injuries during a guided tour organized by your agency on December 28, 2025, in Costa Rica.\n\nOur client suffered a broken ankle due to inadequate safety measures during a zip-lining activity. We have medical documentation and witness statements supporting this claim.\n\nWe request all documentation related to:\n- The tour booking (Reference: CR-2025-4521)\n- Safety certifications of the tour operator\n- Insurance policy details\n- Incident reports filed\n\nPlease respond within 14 days to discuss settlement options before we proceed with formal litigation.\n\nSincerely,\nJennifer Smith, Esq.\nSmith & Partners Law Firm",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "careers@gmail.com",
-		"Subject": "Application for Travel Consultant Position",
-		"Body": "Dear Hiring Manager,\n\nI am writing to express my interest in the Travel Consultant position advertised on LinkedIn.\n\nI have 5 years of experience in the travel industry, including:\n- 3 years at Expedia as a Senior Travel Advisor\n- Fluent in English, French, and Spanish\n- Certified Destination Specialist for Caribbean and Europe\n- Strong sales record with 120% quota achievement\n\nI am passionate about creating memorable travel experiences and would love to bring my expertise to your team.\n\nPlease find my CV attached. I am available for an interview at your earliest convenience.\n\nBest regards,\nSamantha Brown\nPhone: +1 555-123-4567",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "it.helpdesk@travelbooking.com",
-		"Subject": "Critical: Booking system down - Cannot process reservations",
-		"Body": "URGENT TECHNICAL ISSUE\n\nOur booking system integration with your GDS (Global Distribution System) has been failing since 8:00 AM this morning.\n\nError message: \"API Connection Timeout - Unable to retrieve fare quotes\"\n\nThis is affecting all our agents who cannot:\n- Search for available flights\n- Process new bookings\n- Issue tickets\n\nWe've already restarted our servers but the issue persists. This appears to be on your end.\n\nPlease escalate immediately - we are losing significant business.\n\nTechnical contact: devops@travelbooking.com\nPhone: +1 555-987-6543\n\nRegards,\nMark Thompson\nIT Manager",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "accounting@grandhotel.com",
-		"Subject": "Overdue Invoice #INV-2025-8834 - Payment reminder",
-		"Body": "Dear Accounts Payable,\n\nThis is a friendly reminder that invoice #INV-2025-8834 dated December 15, 2025 remains unpaid.\n\nInvoice details:\n- Amount: €12,450.00\n- Due date: January 5, 2026\n- Description: Group accommodation - Winter Conference Package (Dec 10-12, 2025)\n- Your reference: GRP-2025-445\n\nPayment is now 10 days overdue. Please process this payment at your earliest convenience to avoid late fees.\n\nBank details:\nBank: Credit Agricole\nIBAN: FR76 1234 5678 9012 3456 7890 123\nBIC: AGRIFRPP\n\nPlease confirm once payment has been made.\n\nBest regards,\nMarie Fontaine\nAccounts Receivable\nGrand Hotel Paris",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "partnerships@instagram.com",
-		"Subject": "Influencer collaboration opportunity - Travel content",
-		"Body": "Hello!\n\nI'm reaching out from Instagram's Creator Partnerships team.\n\nWe've identified your travel agency as a potential partner for our upcoming \"Wanderlust 2026\" campaign featuring top travel influencers.\n\nThe opportunity:\n- Partner with 5 travel influencers (500K-2M followers each)\n- Sponsored trips to showcase your destinations\n- Co-branded content across Instagram and Reels\n- Estimated reach: 10+ million impressions\n\nInvestment required: $75,000 for full campaign package\nCampaign duration: March-May 2026\n\nWould you be interested in a call to discuss this further? We have limited spots available.\n\nBest,\nAlex Rivera\nCreator Partnerships Manager\nMeta/Instagram",
-		"ReceptionDate": "2026-01-13",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "compliance@gdpr-authority.eu",
-		"Subject": "GDPR Data Subject Access Request - Reference DSR-2026-0142",
-		"Body": "Dear Data Controller,\n\nWe have received a formal complaint and data subject access request concerning your organization.\n\nThe data subject (Reference: DSR-2026-0142) has requested:\n1. Full copy of all personal data held\n2. Information about data processing purposes\n3. List of third parties data was shared with\n4. Complete deletion of their data (Right to Erasure)\n\nUnder GDPR Article 15, you must respond within 30 days of this notice.\n\nFailure to comply may result in enforcement action and potential fines.\n\nPlease direct your response to: compliance@gdpr-authority.eu\nQuote reference: DSR-2026-0142\n\nRegards,\nEU Data Protection Authority",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "refund.request@email.com",
-		"Subject": "Refund request - Cancelled trip due to illness",
-		"Body": "Hello,\n\nI need to request a full refund for my upcoming trip to Thailand.\n\nBooking details:\n- Reference: TH-2026-0089\n- Travel dates: February 1-14, 2026\n- Total paid: $4,200\n- Passengers: 2\n\nUnfortunately, my husband has been diagnosed with a serious illness and we cannot travel. I have attached a medical certificate from his doctor.\n\nI understand there may be cancellation fees, but given the medical circumstances, I hope you can process a full refund or at minimum provide a credit for future travel.\n\nPlease let me know the next steps.\n\nThank you for your understanding,\nSusan Miller\nPhone: +1 555-234-5678",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "wholesale@airlinesupplier.com",
-		"Subject": "2026 Contract renewal - Preferential rates proposal",
-		"Body": "Dear Partner,\n\nAs your airline consolidator contract expires on February 28, 2026, we would like to present our renewal proposal with improved terms.\n\nNew 2026 rates:\n- Economy class: Net +8% (previously +10%)\n- Business class: Net +12% (previously +15%)\n- First class: Net +15% (previously +18%)\n- Minimum booking commitment: 500 tickets/month\n\nAdditional benefits:\n- Priority waitlist clearance\n- Free rebooking within 24 hours\n- Dedicated account manager\n\nPlease review the attached contract and return signed copies by January 31, 2026.\n\nLet me know if you'd like to schedule a call to discuss.\n\nBest regards,\nRichard Wong\nPartnership Director\nGlobal Airlines Wholesale",
-		"ReceptionDate": "2026-01-12",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "events@tourismboard.gov",
-		"Subject": "Invitation: Tourism Industry Conference 2026 - Speaker opportunity",
-		"Body": "Dear Industry Partner,\n\nThe National Tourism Board cordially invites your agency to participate in the Annual Tourism Industry Conference 2026.\n\nEvent details:\n- Date: March 15-17, 2026\n- Location: Convention Center, Miami\n- Theme: \"Sustainable Tourism in the Digital Age\"\n\nWe would like to invite your CEO to speak on a panel about \"AI and Automation in Travel Agencies.\"\n\nBenefits of participation:\n- Networking with 500+ industry professionals\n- Exhibition booth (complimentary for speakers)\n- Media coverage and press opportunities\n\nPlease confirm your participation by February 1, 2026.\n\nBest regards,\nDr. Angela Morrison\nConference Director\nNational Tourism Board",
-		"ReceptionDate": "2026-01-13",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "security@bankofamerica.com",
-		"Subject": "Suspicious transaction alert - Corporate card ending 4521",
-		"Body": "SECURITY ALERT\n\nWe have detected unusual activity on your corporate credit card ending in 4521.\n\nSuspicious transactions:\n1. $2,340.00 - Online purchase - Lagos, Nigeria - Jan 14, 2026\n2. $1,890.00 - ATM withdrawal - Moscow, Russia - Jan 14, 2026\n3. $3,200.00 - Wire transfer - Unknown location - Jan 15, 2026\n\nThese transactions have been temporarily blocked pending your verification.\n\nIf you DID NOT authorize these transactions:\n1. Call us immediately at 1-800-432-1000\n2. Do not click any links in suspicious emails\n\nIf you DID authorize these transactions, please call to verify.\n\nBank of America Fraud Prevention Team",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "hr.inquiry@email.com",
-		"Subject": "Question about employee benefits - Parental leave policy",
-		"Body": "Hi HR Team,\n\nI'm an employee in the Sales department and I have some questions about the parental leave policy.\n\nMy wife and I are expecting our first child in April 2026, and I would like to understand:\n\n1. How many weeks of paid paternity leave am I entitled to?\n2. Can I take the leave in multiple periods or must it be continuous?\n3. Do I need to provide documentation from the hospital?\n4. Will my position be guaranteed when I return?\n5. Are there any flexible working arrangements available after the leave?\n\nI'd appreciate if we could schedule a meeting to discuss this in detail.\n\nThank you,\nAlexandre Petit\nSales Department",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "webmaster@travelagency.com",
-		"Subject": "Website SSL certificate expiring in 7 days",
-		"Body": "AUTOMATED ALERT\n\nThis is an automated notification from your web hosting provider.\n\nYour SSL certificate for www.travelagency.com will expire on January 22, 2026.\n\nCurrent certificate details:\n- Domain: www.travelagency.com, travelagency.com\n- Issuer: Let's Encrypt\n- Expiry: January 22, 2026\n\nIMPORTANT: If the certificate expires:\n- Visitors will see security warnings\n- Online bookings will fail\n- Google search ranking will be affected\n\nAction required: Renew your SSL certificate before the expiry date.\n\nTo renew, log in to your hosting control panel or contact support.\n\nWeb Hosting Support Team",
-		"ReceptionDate": "2026-01-15",
-		"Status": "Pending"
-	},
-	{
-		"Sender": "press@travelmedia.com",
-		"Subject": "Media inquiry - Interview request for travel trends article",
-		"Body": "Dear Press Office,\n\nI'm a journalist at Travel Media Magazine working on a feature article about emerging travel trends for 2026.\n\nI would love to interview someone from your agency about:\n- Most popular destinations for 2026\n- Impact of AI on travel planning\n- Sustainable tourism initiatives\n- How traveler preferences have changed post-pandemic\n\nThe article will be published in our February issue (circulation: 250,000) and online (monthly visitors: 2M+).\n\nWould your Marketing Director or CEO be available for a 30-minute interview next week?\n\nDeadline: January 25, 2026\n\nThank you,\nJessica Adams\nSenior Travel Correspondent\nTravel Media Magazine\npress@travelmedia.com",
-		"ReceptionDate": "2026-01-14",
-		"Status": "Pending"
-	}
+{
+"Sender": "john.smith@vacationplanner.com",
+"Subject": "至急: トンプソン一家のフライトの再予約が必要です",
+"Body": "こんにちは、\n\n緊急事態が発生しました。トンプソン一家（乗客4名）は明日カンクンへ飛ぶ予定でしたが、航空会社によりフライトがキャンセルされました。\n\n次の空席のあるフライトへの再予約を手伝っていただけませんか？ リゾートの予約があるため、遅くとも1月18日までには到着する必要があります。\n\n元の予約番号は TH-2024-1234 です。\n\n非常に急いでいます！\n\nよろしくお願いいたします。\nジョン・スミス",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "maria.garcia@beachresorts.com",
+"Subject": "団体予約の問い合わせ - 社員旅行25名",
+"Body": "旅行代理店 様\n\nTechCorp Inc.を代表してご連絡いたします。2026年3月に従業員25名での社員旅行を計画しています。\n\n以下の条件で探しています：\n- オールインクルーシブのビーチリゾート\n- 会議室の設備\n- チームビルディングのアクティビティ\n- 期間：5泊\n- 予算：約50,000ドル\n\nカリブ海またはメキシコ周辺の目的地のオプションをいくつか送っていただけますか？\n\n今後2週間以内に予約を確定させたいと考えています。\n\nよろしくお願いいたします。\nマリア・ガルシア\nTechCorp Inc. 人事ディレクター",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+},
+{
+"Sender": "newsletter@travelweekly.com",
+"Subject": "今週の旅行情報: 人気の冬の旅行先",
+"Body": "TRAVEL WEEKLY ニュースレター\n\n=== 2026年 人気の冬の旅行先 ===\n\n1. スイスアルプス - 完璧なパウダースノー\n2. モルディブ - 寒さからの逃避行\n3. 日本 - スキーと文化の融合\n\nこのニュースレターの配信停止はこちらをクリックしてください。\n\n© 2026 Travel Weekly",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+},
+{
+"Sender": "angry.customer@email.com",
+"Subject": "クレーム - 最悪のホテル体験！",
+"Body": "ご担当者様\n\n新婚旅行のために貴社で予約したホテルに非常に失望しています！\n\nバリ島のロイヤル・パラダイス・ホテルは、写真とは全く違いました。問題点：\n- 到着時、部屋が汚れていた\n- 約束されていたオーシャンビューがない\n- エアコンが効かない\n- 朝食が冷めていた\n\n予約番号：BK-2025-9876\n\n全額返金または補償を要求します。48時間以内に返答がない場合、あらゆる場所に否定的なレビューを書き込みます。\n\n非常にがっかりしています。\nロバート・ウィルソン",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "emily.chen@luxurytravel.vip",
+"Subject": "VIP顧客 - プライベートヨットチャーターの問い合わせ",
+"Body": "こんにちは、\n\n2026年夏の地中海でのプライベートヨットチャーターに関心のあるVIPクライアントがいます。\n\n要件：\n- 期間：2週間（7月）\n- ゲスト：8〜10名\n- 乗組員付きの豪華ヨット\n- ルート：フレンチ・リヴィエラからギリシャの島々へ\n- 予算：200,000ドル以上\n\nこのクライアントはリピーターの優良顧客です。このリクエストを最優先し、手配可能なオプションを至急お送りください。\n\nよろしくお願いいたします。\nエミリー・チェン\nラグジュアリートラベル・コンシェルジュ",
+"ReceptionDate": "2026-01-13",
+"Status": "保留中"
+},
+{
+"Sender": "support@airlinealerts.com",
+"Subject": "フライト状況の更新 - 確認",
+"Body": "自動配信メッセージ\n\nフライト状況のアラートが正常に設定されました。\n\nフライト：AA1234\nルート：NYC - LAX\n日付：2026年1月20日\n\nこのフライトに変更があった場合、通知が届きます。\n\nこれは自動配信メッセージです。返信しないでください。",
+"ReceptionDate": "2026-01-12",
+"Status": "保留中"
+},
+{
+"Sender": "peter.johnson@familytrips.com",
+"Subject": "6人家族のディズニーワールド旅行の計画を手伝ってください",
+"Body": "こんにちは！\n\n私たちは6人家族（大人2人、5〜12歳の子供4人）で、オーランドのディズニーワールドへの初めての旅行を計画しています。\n\nイースター休暇中（2026年4月10日〜17日）に行く予定で、以下の手配を手伝っていただきたいです：\n- パークチケット（どのパークに行くべきか？）\n- ホテルのおすすめ（公式ホテルかそれ以外か？）\n- レストランの予約\n- ファストパスの戦略\n\nシカゴからの飛行機代を含め、全体の予算は約8,000ドルです。\n\nこの魔法のような旅行の計画をどなたか手伝ってくれませんか？\n\nよろしくお願いします！\nピーター・ジョンソン",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "legal@smithandpartners.law",
+"Subject": "訴訟の可能性に関する通知 - 顧客の負傷に関する請求",
+"Body": "ご担当者様\n\n当事務所は、2025年12月28日にコスタリカで貴社が企画したガイド付きツアー中に負傷したデビッド・パターソン氏の代理人です。\n\n当方の依頼人は、ジップライン・アクティビティ中の不適切な安全対策により足首を骨折しました。この主張を裏付ける医療記録および目撃者の証言を保持しております。\n\n以下に関連するすべての文書の提出を要求します：\n- ツアーの予約（照会番号：CR-2025-4521）\n- ツアーオペレーターの安全認定証\n- 保険証券の詳細\n- 提出された事故報告書\n\n正式な訴訟手続きに移行する前に、和解の選択肢について協議するため、14日以内にご返答ください。\n\n敬具\nジェニファー・スミス弁護士\nスミス＆パートナーズ法律事務所",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+},
+{
+"Sender": "careers@gmail.com",
+"Subject": "トラベルコンサルタント職への応募",
+"Body": "採用ご担当者様\n\nLinkedInに掲載されていたトラベルコンサルタントのポジションに興味があり、ご連絡いたしました。\n\n私には旅行業界で5年の経験があり、以下の実績が含まれます：\n- エクスペディアでのシニアトラベルアドバイザーとしての3年間\n- 英語、フランス語、スペイン語に堪能\n- カリブ海およびヨーロッパの認定デスティネーション・スペシャリスト\n- ノルマ達成率120%の強力な営業成績\n\n記憶に残る旅行体験を創り出すことに情熱を注いでおり、私の専門知識を貴社のチームで活かしたいと強く願っております。\n\n添付の履歴書をご確認ください。ご都合の良い時に面接の機会をいただけますと幸いです。\n\nよろしくお願いいたします。\nサマンサ・ブラウン\n電話: +1 555-123-4567",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "it.helpdesk@travelbooking.com",
+"Subject": "重大: 予約システムがダウン - 予約処理ができません",
+"Body": "緊急の技術的問題\n\n貴社のGDS（Global Distribution System）との予約システム連携が、今朝の午前8時から失敗しています。\n\nエラーメッセージ：「API接続タイムアウト - 運賃見積もりを取得できません」\n\nこれによりすべてのエージェントに影響が出ており、以下の操作ができません：\n- 空席のあるフライトの検索\n- 新規予約の処理\n- チケットの発券\n\nすでに当方のサーバーを再起動しましたが、問題は解決しません。これは貴社側の問題と思われます。\n\n多大なビジネス上の損失が生じているため、至急エスカレーションをお願いします。\n\n技術担当連絡先：devops@travelbooking.com\n電話: +1 555-987-6543\n\nよろしくお願いいたします。\nマーク・トンプソン\nITマネージャー",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "accounting@grandhotel.com",
+"Subject": "未払い請求書 #INV-2025-8834 - お支払いのお願い",
+"Body": "経理ご担当者様\n\n2025年12月15日付の請求書 #INV-2025-8834 が未払いとなっておりますので、お知らせいたします。\n\n請求書の詳細：\n- 金額：12,450.00ユーロ\n- 支払期限：2026年1月5日\n- 詳細：団体宿泊 - 冬季カンファレンスパッケージ（2025年12月10日〜12日）\n- 貴社参照番号：GRP-2025-445\n\n現在、お支払いが10日遅延しております。延滞料金の発生を防ぐため、至急お支払い手続きをお願いいたします。\n\n銀行口座情報：\n銀行名：Credit Agricole\nIBAN：FR76 1234 5678 9012 3456 7890 123\nBIC：AGRIFRPP\n\nお支払いが完了しましたら、ご一報ください。\n\nよろしくお願いいたします。\nマリー・フォンテーヌ\n売掛金担当\nグランド・ホテル・パリ",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "partnerships@instagram.com",
+"Subject": "インフルエンサーとのコラボレーションの機会 - 旅行コンテンツ",
+"Body": "こんにちは！\n\nInstagramのクリエイター・パートナーシップ・チームよりご連絡しております。\n\nトップの旅行インフルエンサーを起用した次回の「Wanderlust 2026」キャンペーンの潜在的なパートナーとして、貴社の旅行代理店を候補に挙げております。\n\nコラボレーションの内容：\n- 5名の旅行インフルエンサー（各50万〜200万フォロワー）との提携\n- 貴社の旅行先を紹介するスポンサー付き旅行\n- InstagramおよびReelsでの共同ブランドコンテンツ\n- 推定リーチ：1000万インプレッション以上\n\n必要な投資額：フルキャンペーンパッケージで75,000ドル\nキャンペーン期間：2026年3月〜5月\n\nこの件について詳しく話し合うため、お電話でお時間をいただけないでしょうか？ 枠には限りがございます。\n\nよろしくお願いいたします。\nアレックス・リベラ\nクリエイター・パートナーシップ・マネージャー\nMeta/Instagram",
+"ReceptionDate": "2026-01-13",
+"Status": "保留中"
+},
+{
+"Sender": "compliance@gdpr-authority.eu",
+"Subject": "GDPRデータ主体からのアクセス要求 - 参照番号 DSR-2026-0142",
+"Body": "データ管理者様\n\n貴組織に関する正式な苦情およびデータ主体のアクセス要求を受理いたしました。\n\nデータ主体（参照番号：DSR-2026-0142）は以下を要求しています：\n1. 保持されているすべての個人データの完全なコピー\n2. データ処理の目的に関する情報\n3. データが共有された第三者のリスト\n4. データの完全な削除（消去の権利）\n\nGDPR第15条に基づき、本通知から30日以内に回答する必要があります。\n\n遵守しない場合、強制措置および潜在的な罰金が科される可能性があります。\n\n回答の送付先：compliance@gdpr-authority.eu\n参照番号：DSR-2026-0142 を明記してください。\n\nよろしくお願いいたします。\nEUデータ保護機関",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+},
+{
+"Sender": "refund.request@email.com",
+"Subject": "返金リクエスト - 病気による旅行のキャンセル",
+"Body": "こんにちは、\n\n予定していたタイ旅行の全額返金をリクエストいたします。\n\n予約の詳細：\n- 参照番号：TH-2026-0089\n- 旅行日程：2026年2月1日〜14日\n- 支払総額：4,200ドル\n- 乗客数：2名\n\n残念ながら、夫が重い病気と診断され、旅行することができなくなりました。医師からの診断書を添付しております。\n\nキャンセル料が発生する可能性があることは理解していますが、医学的な事情を考慮し、全額返金していただくか、少なくとも将来の旅行に使用できるクレジットを提供していただけることを願っております。\n\n今後の手続きについてお知らせください。\n\nご理解いただきありがとうございます。\nスーザン・ミラー\n電話: +1 555-234-5678",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "wholesale@airlinesupplier.com",
+"Subject": "2026年 契約更新 - 優遇料金のご提案",
+"Body": "パートナー様\n\n貴社の航空券ホールセラー契約が2026年2月28日に満了となるにあたり、より良い条件での契約更新のご提案をさせていただきます。\n\n2026年の新料金：\n- エコノミークラス：ネット +8%（以前は +10%）\n- ビジネスクラス：ネット +12%（以前は +15%）\n- ファーストクラス：ネット +15%（以前は +18%）\n- 最低予約保証：月間500チケット\n\n追加の特典：\n- キャンセル待ちの優先クリアランス\n- 24時間以内の無料再予約\n- 専任のアカウントマネージャー\n\n添付の契約書をご確認いただき、署名入りの書類を2026年1月31日までにご返送ください。\n\nご相談のためのお電話をご希望の場合はお知らせください。\n\nよろしくお願いいたします。\nリチャード・ウォン\nパートナーシップ・ディレクター\nGlobal Airlines Wholesale",
+"ReceptionDate": "2026-01-12",
+"Status": "保留中"
+},
+{
+"Sender": "events@tourismboard.gov",
+"Subject": "招待状：2026年 観光産業カンファレンス - 登壇の機会",
+"Body": "業界パートナーの皆様\n\n政府観光局より、貴社を2026年年次観光産業カンファレンスに謹んでご招待申し上げます。\n\nイベント詳細：\n- 日程：2026年3月15日〜17日\n- 場所：マイアミ、コンベンションセンター\n- テーマ：「デジタル時代における持続可能な観光」\n\n「旅行代理店におけるAIと自動化」に関するパネルディスカッションのスピーカーとして、貴社のCEOをお招きしたいと考えております。\n\n参加のメリット：\n- 500名以上の業界専門家とのネットワーキング\n- 展示ブース（スピーカーは無料）\n- メディア露出とプレス機会\n\n2026年2月1日までにご出欠をお知らせください。\n\nよろしくお願いいたします。\nアンジェラ・モリソン博士\nカンファレンス・ディレクター\n政府観光局",
+"ReceptionDate": "2026-01-13",
+"Status": "保留中"
+},
+{
+"Sender": "security@bankofamerica.com",
+"Subject": "不審な取引のアラート - 末尾4521の法人カード",
+"Body": "セキュリティアラート\n\n末尾が4521の法人クレジットカードに不審なアクティビティが検出されました。\n\n不審な取引：\n1. 2,340.00ドル - オンライン購入 - ナイジェリア、ラゴス - 2026年1月14日\n2. 1,890.00ドル - ATM引き出し - ロシア、モスクワ - 2026年1月14日\n3. 3,200.00ドル - 電信送金 - 場所不明 - 2026年1月15日\n\nこれらの取引は、お客様の確認が取れるまで一時的にブロックされています。\n\nこれらの取引を承認していない場合：\n1. すぐに 1-800-432-1000 までお電話ください\n2. 不審なメール内のリンクをクリックしないでください\n\nこれらの取引を承認した場合は、確認のためにお電話をお願いします。\n\nバンク・オブ・アメリカ 詐欺防止チーム",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "hr.inquiry@email.com",
+"Subject": "福利厚生に関する質問 - 育児休暇制度",
+"Body": "人事部チームへ\n\n私は営業部の従業員ですが、育児休暇制度についていくつか質問があります。\n\n妻と私は2026年4月に第一子を迎える予定であり、以下の点について理解したいと考えています。\n\n1. 有給の父親の育児休暇は何週間取得できますか？\n2. 休暇は複数回に分けて取得できますか、それとも連続している必要がありますか？\n3. 病院からの証明書を提出する必要がありますか？\n4. 復帰後、現在の役職は保証されますか？\n5. 休暇後に利用可能な柔軟な勤務形態はありますか？\n\nこれについて詳しく話し合うためのミーティングを設定していただけると幸いです。\n\nよろしくお願いいたします。\nアレクサンドル・プティ\n営業部",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+},
+{
+"Sender": "webmaster@travelagency.com",
+"Subject": "ウェブサイトのSSL証明書が7日後に期限切れになります",
+"Body": "自動アラート\n\nこれはウェブホスティングプロバイダーからの自動通知です。\n\nwww.travelagency.com のSSL証明書は、2026年1月22日に有効期限が切れます。\n\n現在の証明書の詳細：\n- ドメイン：www.travelagency.com, travelagency.com\n- 発行者：Let's Encrypt\n- 有効期限：2026年1月22日\n\n重要：証明書の有効期限が切れた場合：\n- 訪問者にセキュリティ警告が表示されます\n- オンライン予約が失敗します\n- Googleの検索順位に影響が出ます\n\n必要な対応：有効期限が切れる前にSSL証明書を更新してください。\n\n更新するには、ホスティングのコントロールパネルにログインするか、サポートにお問い合わせください。\n\nウェブホスティングサポートチーム",
+"ReceptionDate": "2026-01-15",
+"Status": "保留中"
+},
+{
+"Sender": "press@travelmedia.com",
+"Subject": "メディアからのお問い合わせ - 旅行のトレンドに関する記事のインタビュー依頼",
+"Body": "広報部 様\n\n私はTravel Media Magazineのジャーナリストで、2026年の新たな旅行のトレンドに関する特集記事を執筆しています。\n\n以下のトピックについて、貴社の方にぜひインタビューをお願いしたいと考えております：\n- 2026年の最も人気のある旅行先\n- AIが旅行計画に与える影響\n- 持続可能な観光への取り組み\n- パンデミック後における旅行者の好みの変化\n\nこの記事は弊誌の2月号（発行部数：25万部）およびオンライン（月間訪問者数：200万人以上）に掲載される予定です。\n\n来週、貴社のマーケティングディレクターまたはCEOに30分間のインタビューをお願いすることは可能でしょうか？\n\n締め切り：2026年1月25日\n\nよろしくお願いいたします。\nジェシカ・アダムス\nシニア・トラベル・特派員\nTravel Media Magazine\npress@travelmedia.com",
+"ReceptionDate": "2026-01-14",
+"Status": "保留中"
+}
 ]
