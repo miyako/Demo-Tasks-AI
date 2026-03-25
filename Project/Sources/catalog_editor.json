@@ -1,0 +1,68 @@
+{
+	"tables": {
+		"Emails": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 101.640625,
+				"top": 357.84375,
+				"width": 184.96484375,
+				"height": 193.54296875
+			},
+			"displayable_fields_count": 7,
+			"fields_ordering": 1
+		},
+		"Tasks": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 528.19921875,
+				"top": 267.25390625,
+				"width": 213.71484375,
+				"height": 289.1953125
+			},
+			"displayable_fields_count": 11,
+			"fields_ordering": 1
+		},
+		"Departments": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 468.0078125,
+				"top": 8.43359375,
+				"width": 230.203125,
+				"height": 227.75
+			},
+			"displayable_fields_count": 8,
+			"fields_ordering": 1
+		},
+		"Employees": {
+			"color": {
+				"red": 255,
+				"green": 255,
+				"blue": 255,
+				"alpha": 0
+			},
+			"coordinates": {
+				"left": 72.80859375,
+				"top": 66.71875,
+				"width": 190.73046875,
+				"height": 226.9921875
+			},
+			"displayable_fields_count": 8,
+			"fields_ordering": 1
+		}
+	}
+}

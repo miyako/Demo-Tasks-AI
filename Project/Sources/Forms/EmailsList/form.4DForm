@@ -1,0 +1,377 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 1200,
+	"windowMinHeight": 700,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDataChange"
+	],
+	"windowTitle": "Email Inbox - AI Task Generator",
+	"destination": "detailScreen",
+	"formClass": "EmailsListForm",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Background": {
+					"type": "rectangle",
+					"left": 0,
+					"top": 0,
+					"width": 1200,
+					"height": 700,
+					"fill": "#155BDC",
+					"stroke": "transparent",
+					"strokeWidth": 0
+				},
+				"Background1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 771,
+					"height": 700,
+					"picture": "/RESOURCES/background.png",
+					"pictureFormat": "scaled"
+				},
+				"ListboxCard": {
+					"type": "rectangle",
+					"left": 20,
+					"top": 60,
+					"width": 550,
+					"height": 620,
+					"fill": "#FFFFFF",
+					"stroke": "#E5E5E5",
+					"strokeWidth": 1,
+					"borderRadius": 12
+				},
+				"DetailCard": {
+					"type": "rectangle",
+					"left": 590,
+					"top": 60,
+					"width": 590,
+					"height": 620,
+					"fill": "#FFFFFF",
+					"stroke": "#E5E5E5",
+					"strokeWidth": 1,
+					"borderRadius": 12
+				},
+				"EmailsListbox": {
+					"type": "listbox",
+					"left": 30,
+					"top": 115,
+					"width": 530,
+					"height": 550,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.emails",
+					"currentItemSource": "Form:C1466.currentEmail",
+					"selectedItemsSource": "Form:C1466.selectedEmails",
+					"rowHeight": "36px",
+					"headerHeight": "32px",
+					"alternateBackground": "#F9F9F9",
+					"hideFocusRing": true,
+					"hideExtraBlankRows": true,
+					"resizingMode": "legacy",
+					"verticalAlign": "middle",
+					"columns": [
+						{
+							"header": {
+								"text": "Status",
+								"name": "HeaderStatus"
+							},
+							"name": "ColStatus",
+							"dataSource": "This.Status",
+							"width": 80,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"text": "From",
+								"name": "HeaderSender"
+							},
+							"name": "ColSender",
+							"dataSource": "This.Sender",
+							"width": 132,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer2"
+							}
+						},
+						{
+							"header": {
+								"text": "Subject",
+								"name": "HeaderSubject"
+							},
+							"name": "ColSubject",
+							"dataSource": "This.Subject",
+							"width": 198,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer3"
+							}
+						},
+						{
+							"header": {
+								"text": "Date",
+								"name": "HeaderDate"
+							},
+							"name": "ColDate",
+							"dataSource": "This.ReceptionDate",
+							"dataSourceTypeHint": "date",
+							"width": 100,
+							"footer": {
+								"name": "Footer4"
+							}
+						}
+					]
+				},
+				"Title": {
+					"type": "text",
+					"text": "Inbox",
+					"top": 20,
+					"left": 30,
+					"width": 400,
+					"height": 30,
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"stroke": "#FFFFFF"
+				},
+				"ListboxTitle": {
+					"type": "text",
+					"text": "Incoming Emails",
+					"top": 75,
+					"left": 30,
+					"width": 200,
+					"height": 26,
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"stroke": "#2C2C2E"
+				},
+				"DetailTitle": {
+					"type": "text",
+					"text": "Email Details",
+					"top": 75,
+					"left": 610,
+					"width": 200,
+					"height": 26,
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"stroke": "#2C2C2E"
+				},
+				"DetailDivider": {
+					"type": "rectangle",
+					"left": 610,
+					"top": 108,
+					"width": 550,
+					"height": 1,
+					"fill": "#E5E5E5",
+					"stroke": "transparent"
+				},
+				"LabelStatus": {
+					"type": "text",
+					"text": "Status:",
+					"top": 125,
+					"left": 610,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailStatus": {
+					"type": "input",
+					"left": 690,
+					"top": 122,
+					"width": 100,
+					"height": 24,
+					"dataSource": "Form.currentEmail.Status",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "transparent",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#007AFF"
+				},
+				"LabelSender": {
+					"type": "text",
+					"text": "From:",
+					"top": 160,
+					"left": 610,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailSender": {
+					"type": "input",
+					"left": 610,
+					"top": 180,
+					"width": 550,
+					"height": 24,
+					"dataSource": "Form.currentEmail.Sender",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelSubject": {
+					"type": "text",
+					"text": "Subject:",
+					"top": 220,
+					"left": 610,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailSubject": {
+					"type": "input",
+					"left": 610,
+					"top": 240,
+					"width": 550,
+					"height": 24,
+					"dataSource": "Form.currentEmail.Subject",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"fontWeight": "bold",
+					"stroke": "#1F1F1F"
+				},
+				"LabelDate": {
+					"type": "text",
+					"text": "Received:",
+					"top": 280,
+					"left": 610,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailDate": {
+					"type": "input",
+					"left": 610,
+					"top": 300,
+					"width": 200,
+					"height": 24,
+					"dataSource": "Form.currentEmail.ReceptionDate",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelBody": {
+					"type": "text",
+					"text": "Message:",
+					"top": 340,
+					"left": 610,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailBody": {
+					"type": "input",
+					"left": 610,
+					"top": 360,
+					"width": 534,
+					"height": 193,
+					"dataSource": "Form.currentEmail.Body",
+					"enterable": false,
+					"focusable": false,
+					"multiline": "yes",
+					"wordwrap": "automatic",
+					"scrollbarVertical": "visible",
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 13,
+					"stroke": "#3C3C43"
+				},
+				"BtnProcessAI": {
+					"type": "button",
+					"text": "🤖 Process with AI",
+					"top": 580,
+					"left": 610,
+					"width": 180,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"style": "flat",
+					"fill": "#007AFF",
+					"stroke": "#FFFFFF",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"borderRadius": 8,
+					"method": "ObjectMethods/BtnProcessAI.4dm"
+				},
+				"BtnRefresh": {
+					"type": "button",
+					"text": "↻ Refresh",
+					"top": 580,
+					"left": 810,
+					"width": 120,
+					"height": 40,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnRefresh.4dm",
+					"style": "flat",
+					"fill": "#34C759",
+					"stroke": "#FFFFFF",
+					"fontSize": 15,
+					"fontWeight": "bold",
+					"borderRadius": 8
+				},
+				"HelpText": {
+					"type": "text",
+					"text": "Select an email and click 'Process with AI' to automatically analyze and create a task.",
+					"top": 640,
+					"left": 610,
+					"width": 550,
+					"height": 30,
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm",
+	"geometryStamp": 6
+}

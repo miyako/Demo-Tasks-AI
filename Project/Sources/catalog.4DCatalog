@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="Tasks AI" uuid="E20114E6CC684175B1B0A67001DD31D6" collation_locale="en">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Employees" uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" id="1">
+		<field name="ID" uuid="F1E2D3C4B5A6478990A1B2C3D4E5F679" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Name" uuid="F2E3D4C5B6A7478990A1B2C3D4E5F680" type="10" limiting_length="255" id="2"/>
+		<field name="Firstname" uuid="F3E4D5C6B7A8478990A1B2C3D4E5F681" type="10" limiting_length="255" id="3"/>
+		<field name="Department_ID" uuid="F4E5D6C7B8A9478990A1B2C3D4E5F684" type="10" store_as_UUID="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="F1E2D3C4B5A6478990A1B2C3D4E5F679"/>
+	</table>
+	<table name="Departments" uuid="D1E2F3A4B5C6478990D1E2F3A4B5C678" id="2">
+		<field name="ID" uuid="D2E3F4A5B6C7478990D2E3F4A5B6C679" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Name" uuid="D3E4F5A6B7C8478990D3E4F5A6B7C680" type="10" limiting_length="255" not_null="true" id="2"/>
+		<field name="Description" uuid="D4E5F6A7B8C9478990D4E5F6A7B8C681" type="10" id="3"/>
+		<field name="Manager_ID" uuid="D5E6F7A8B9C0478990D5E6F7A8B9C682" type="10" store_as_UUID="true" id="4"/>
+		<primary_key field_name="ID" field_uuid="D2E3F4A5B6C7478990D2E3F4A5B6C679"/>
+	</table>
+	<table name="Tasks" uuid="5431413253334B345335543634373839" id="3">
+		<field name="ID" uuid="5432413353344B355336543734373839" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Summary" uuid="5437413853394B305331543234373839" type="10" limiting_length="255" id="2"/>
+		<field name="Description" uuid="5433413453354B365337543834373839" type="10" id="3"/>
+		<field name="Assignee_ID" uuid="5434413553364B375338543934373839" type="10" store_as_UUID="true" id="4"/>
+		<field name="Status" uuid="5435413653374B385339543034373839" type="10" limiting_length="50" id="5"/>
+		<field name="CreationDate" uuid="5438413953404B315332543334373839" type="8" id="6"/>
+		<field name="DueDate" uuid="5436413753384B395330543134373839" type="8" id="7"/>
+		<field name="Email_ID" uuid="5439414054414B325333543534373839" type="10" store_as_UUID="true" id="8"/>
+		<primary_key field_name="ID" field_uuid="5432413353344B355336543734373839"/>
+	</table>
+	<table name="Emails" uuid="E1A2B3C4D5E6F78990E1A2B3C4D5E678" id="4">
+		<field name="ID" uuid="E2A3B4C5D6E7F78990E2A3B4C5D6E679" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="Sender" uuid="E3A4B5C6D7E8F78990E3A4B5C6D7E680" type="10" limiting_length="255" not_null="true" id="2"/>
+		<field name="Subject" uuid="E4A5B6C7D8E9F78990E4A5B6C7D8E681" type="10" limiting_length="500" id="3"/>
+		<field name="Body" uuid="E5A6B7C8D9E0F78990E5A6B7C8D9E682" type="10" id="4"/>
+		<field name="ReceptionDate" uuid="E6A7B8C9D0E1F78990E6A7B8C9D0E683" type="8" id="5"/>
+		<field name="Status" uuid="E7A8B9C0D1E2F78990E7A8B9C0D1E684" type="10" limiting_length="50" id="6"/>
+		<primary_key field_name="ID" field_uuid="E2A3B4C5D6E7F78990E2A3B4C5D6E679"/>
+	</table>
+	<relation uuid="523245334C3441355436493734373839" name_Nto1="Department" name_1toN="Employees" state="1">
+		<related_field kind="source">
+			<field_ref uuid="F4E5D6C7B8A9478990A1B2C3D4E5F684" name="Department_ID">
+				<table_ref uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" name="Employees"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="D2E3F4A5B6C7478990D2E3F4A5B6C679" name="ID">
+				<table_ref uuid="D1E2F3A4B5C6478990D1E2F3A4B5C678" name="Departments"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="4D3141324E3341344735453634373839" name_Nto1="Manager" name_1toN="ManagedDepartments" state="1">
+		<related_field kind="source">
+			<field_ref uuid="D5E6F7A8B9C0478990D5E6F7A8B9C682" name="Manager_ID">
+				<table_ref uuid="D1E2F3A4B5C6478990D1E2F3A4B5C678" name="Departments"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="F1E2D3C4B5A6478990A1B2C3D4E5F679" name="ID">
+				<table_ref uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" name="Employees"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="5431523245334C344135543634373839" name_Nto1="Assignee" name_1toN="AssignedTasks" state="1">
+		<related_field kind="source">
+			<field_ref uuid="5434413553364B375338543934373839" name="Assignee_ID">
+				<table_ref uuid="5431413253334B345335543634373839" name="Tasks"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="F1E2D3C4B5A6478990A1B2C3D4E5F679" name="ID">
+				<table_ref uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" name="Employees"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<relation uuid="E8A9B0C1D2E3F78990E8A9B0C1D2E685" name_Nto1="Email" name_1toN="GeneratedTasks" state="1">
+		<related_field kind="source">
+			<field_ref uuid="5439414054414B325333543534373839" name="Email_ID">
+				<table_ref uuid="5431413253334B345335543634373839" name="Tasks"/>
+			</field_ref>
+		</related_field>
+		<related_field kind="destination">
+			<field_ref uuid="E2A3B4C5D6E7F78990E2A3B4C5D6E679" name="ID">
+				<table_ref uuid="E1A2B3C4D5E6F78990E1A2B3C4D5E678" name="Emails"/>
+			</field_ref>
+		</related_field>
+	</relation>
+	<index kind="regular" uuid="4D3741384E3941304731453234373839" type="7">
+		<field_ref uuid="D5E6F7A8B9C0478990D5E6F7A8B9C682" name="Manager_ID">
+			<table_ref uuid="D1E2F3A4B5C6478990D1E2F3A4B5C678" name="Departments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="523145324C3341345435493634373839" type="7">
+		<field_ref uuid="F4E5D6C7B8A9478990A1B2C3D4E5F684" name="Department_ID">
+			<table_ref uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" name="Employees"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="5437413853394B305331543234373839" type="7">
+		<field_ref uuid="5432413353344B355336543734373839" name="ID">
+			<table_ref uuid="5431413253334B345335543634373839" name="Tasks"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="5438413953304B315332543334373839" type="7">
+		<field_ref uuid="5434413553364B375338543934373839" name="Assignee_ID">
+			<table_ref uuid="5431413253334B345335543634373839" name="Tasks"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="A1B2C3D4E5F6478990A1B2C3D4E5F682" type="7">
+		<field_ref uuid="F1E2D3C4B5A6478990A1B2C3D4E5F679" name="ID">
+			<table_ref uuid="A1B2C3D4E5F6478890A1B2C3D4E5F678" name="Employees"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="D6E7F8A9B0C1478990D6E7F8A9B0C683" type="7">
+		<field_ref uuid="D2E3F4A5B6C7478990D2E3F4A5B6C679" name="ID">
+			<table_ref uuid="D1E2F3A4B5C6478990D1E2F3A4B5C678" name="Departments"/>
+		</field_ref>
+	</index>
+	<index kind="regular" uuid="E0A1B2C3D4E5F78990E0A1B2C3D4E687" type="7">
+		<field_ref uuid="5439414054414B325333543534373839" name="Email_ID">
+			<table_ref uuid="5431413253334B345335543634373839" name="Tasks"/>
+		</field_ref>
+	</index>
+	<index kind="regular" unique_keys="true" uuid="E9A0B1C2D3E4F78990E9A0B1C2D3E686" type="7">
+		<field_ref uuid="E2A3B4C5D6E7F78990E2A3B4C5D6E679" name="ID">
+			<table_ref uuid="E1A2B3C4D5E6F78990E1A2B3C4D5E678" name="Emails"/>
+		</field_ref>
+	</index>
+	<base_extra>
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

@@ -1,0 +1,454 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"css": "tasksList.css",
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 1100,
+	"windowMinHeight": 650,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver"
+	],
+	"windowTitle": "Tasks List",
+	"destination": "detailScreen",
+	"formClass": "TasksListForm",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Background": {
+					"type": "rectangle",
+					"left": 0,
+					"top": 0,
+					"width": 1100,
+					"height": 650,
+					"fill": "#155BDC",
+					"stroke": "transparent"
+				},
+				"Background1": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 695,
+					"height": 650,
+					"picture": "/RESOURCES/background.png",
+					"pictureFormat": "scaled"
+				},
+				"ListboxCard": {
+					"type": "rectangle",
+					"left": 20,
+					"top": 60,
+					"width": 650,
+					"height": 575,
+					"fill": "#FFFFFF",
+					"stroke": "#E5E5E5",
+					"strokeWidth": 1,
+					"borderRadius": 12
+				},
+				"DetailCard": {
+					"type": "rectangle",
+					"left": 690,
+					"top": 60,
+					"width": 390,
+					"height": 575,
+					"fill": "#FFFFFF",
+					"stroke": "#E5E5E5",
+					"strokeWidth": 1,
+					"borderRadius": 12
+				},
+				"TasksListbox": {
+					"type": "listbox",
+					"left": 30,
+					"top": 115,
+					"width": 630,
+					"height": 505,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"dataSource": "Form:C1466.tasks",
+					"currentItemSource": "Form:C1466.currentTask",
+					"selectedItemsSource": "Form:C1466.selectedTasks",
+					"rowHeight": "32px",
+					"headerHeight": "32px",
+					"alternateBackground": "#F9F9F9",
+					"hideFocusRing": true,
+					"hideExtraBlankRows": true,
+					"resizingMode": "legacy",
+					"verticalAlign": "middle",
+					"scrollbarHorizontal": "hidden",
+					"columns": [
+						{
+							"header": {
+								"text": "Summary",
+								"name": "HeaderSummary"
+							},
+							"name": "ColSummary",
+							"dataSource": "This.Summary",
+							"width": 164,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer1"
+							}
+						},
+						{
+							"header": {
+								"text": "Assignee",
+								"name": "HeaderAssignee"
+							},
+							"name": "ColAssignee",
+							"dataSource": "This.Assignee.Name",
+							"width": 90,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer2"
+							}
+						},
+						{
+							"header": {
+								"text": "Department",
+								"name": "HeaderDepartment"
+							},
+							"name": "ColDepartment",
+							"dataSource": "This.Assignee.Department.Name",
+							"width": 110,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer3"
+							}
+						},
+						{
+							"header": {
+								"text": "Created",
+								"name": "HeaderCreationDate"
+							},
+							"name": "ColCreationDate",
+							"dataSource": "This.CreationDate",
+							"dataSourceTypeHint": "date",
+							"width": 95,
+							"footer": {
+								"name": "Footer4"
+							}
+						},
+						{
+							"header": {
+								"text": "Due Date",
+								"name": "HeaderDueDate"
+							},
+							"name": "ColDueDate",
+							"dataSource": "This.DueDate",
+							"dataSourceTypeHint": "date",
+							"width": 85,
+							"footer": {
+								"name": "Footer5"
+							}
+						},
+						{
+							"header": {
+								"text": "Status",
+								"name": "HeaderStatus"
+							},
+							"name": "ColStatus",
+							"dataSource": "This.Status",
+							"width": 70,
+							"truncateMode": "withEllipsis",
+							"footer": {
+								"name": "Footer6"
+							}
+						}
+					]
+				},
+				"Title": {
+					"type": "text",
+					"text": "Tasks",
+					"top": 20,
+					"left": 30,
+					"width": 300,
+					"height": 30,
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"stroke": "#FFFFFF"
+				},
+				"ListboxTitle": {
+					"type": "text",
+					"text": "Tasks list",
+					"top": 75,
+					"left": 30,
+					"width": 150,
+					"height": 26,
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"stroke": "#2C2C2E"
+				},
+				"BtnRefresh": {
+					"type": "button",
+					"text": "↻ Refresh",
+					"top": 75,
+					"left": 550,
+					"width": 110,
+					"height": 28,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnRefresh.4dm",
+					"style": "flat",
+					"fill": "#34C759",
+					"stroke": "#FFFFFF",
+					"fontSize": 13,
+					"fontWeight": "bold",
+					"borderRadius": 6
+				},
+				"DetailTitle": {
+					"type": "text",
+					"text": "Task Details",
+					"top": 75,
+					"left": 710,
+					"width": 200,
+					"height": 26,
+					"fontSize": 18,
+					"fontWeight": "bold",
+					"stroke": "#2C2C2E"
+				},
+				"DetailDivider": {
+					"type": "rectangle",
+					"left": 710,
+					"top": 108,
+					"width": 350,
+					"height": 1,
+					"fill": "#E5E5E5",
+					"stroke": "transparent"
+				},
+				"LabelSummary": {
+					"type": "text",
+					"text": "Summary:",
+					"top": 125,
+					"left": 710,
+					"width": 120,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailSummary": {
+					"type": "input",
+					"left": 710,
+					"top": 145,
+					"width": 350,
+					"height": 24,
+					"dataSource": "Form.currentTask.Summary",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelDescription": {
+					"type": "text",
+					"text": "Description:",
+					"top": 185,
+					"left": 710,
+					"width": 120,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailDescription": {
+					"type": "input",
+					"left": 710,
+					"top": 205,
+					"width": 335,
+					"height": 177,
+					"dataSource": "Form.currentTask.Description",
+					"enterable": false,
+					"focusable": false,
+					"multiline": "yes",
+					"scrollbarVertical": "visible",
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 13,
+					"stroke": "#3C3C43"
+				},
+				"LabelAssignee": {
+					"type": "text",
+					"text": "Assignee:",
+					"top": 395,
+					"left": 710,
+					"width": 120,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailAssignee": {
+					"type": "input",
+					"left": 710,
+					"top": 415,
+					"width": 165,
+					"height": 24,
+					"dataSource": "Form.currentTask.Assignee.Firstname+\" \"+Form.currentTask.Assignee.Name",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelDepartment": {
+					"type": "text",
+					"text": "Department:",
+					"top": 395,
+					"left": 895,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailDepartment": {
+					"type": "input",
+					"left": 895,
+					"top": 415,
+					"width": 165,
+					"height": 24,
+					"dataSource": "Form.currentTask.Assignee.Department.Name",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelManager": {
+					"type": "text",
+					"text": "Manager:",
+					"top": 455,
+					"left": 710,
+					"width": 120,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailManager": {
+					"type": "input",
+					"left": 710,
+					"top": 475,
+					"width": 350,
+					"height": 24,
+					"dataSource": "Form.currentTask.Assignee.Department.Manager.Firstname+\" \"+Form.currentTask.Assignee.Department.Manager.Name",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelCreationDate": {
+					"type": "text",
+					"text": "Created:",
+					"top": 515,
+					"left": 710,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailCreationDate": {
+					"type": "input",
+					"left": 710,
+					"top": 535,
+					"width": 110,
+					"height": 24,
+					"dataSource": "Form.currentTask.CreationDate",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelDueDate": {
+					"type": "text",
+					"text": "Due Date:",
+					"top": 515,
+					"left": 840,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailDueDate": {
+					"type": "input",
+					"left": 840,
+					"top": 535,
+					"width": 110,
+					"height": 24,
+					"dataSource": "Form.currentTask.DueDate",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				},
+				"LabelStatus": {
+					"type": "text",
+					"text": "Status:",
+					"top": 575,
+					"left": 710,
+					"width": 80,
+					"height": 20,
+					"fontWeight": "normal",
+					"fontSize": 12,
+					"stroke": "#8E8E93"
+				},
+				"DetailStatus": {
+					"type": "input",
+					"left": 710,
+					"top": 595,
+					"width": 120,
+					"height": 24,
+					"dataSource": "Form.currentTask.Status",
+					"enterable": false,
+					"focusable": false,
+					"borderStyle": "none",
+					"fill": "#F5F5F7",
+					"fontSize": 14,
+					"stroke": "#1F1F1F"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"geometryStamp": 102
+}

@@ -1,0 +1,206 @@
+{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"windowMinWidth": 600,
+	"windowMinHeight": 500,
+	"windowMaxWidth": 600,
+	"windowMaxHeight": 500,
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "Welcome - 4D Demo Tasks AI",
+	"destination": "detailScreen",
+	"formClass": "WelcomeForm",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"Background": {
+					"type": "rectangle",
+					"left": 0,
+					"top": 0,
+					"width": 600,
+					"height": 500,
+					"fill": "#F5F5F7",
+					"stroke": "transparent"
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 0,
+					"left": -1,
+					"width": 601,
+					"height": 500,
+					"stroke": "transparent",
+					"fill": "#155BDC",
+					"strokeWidth": 0
+				},
+				"Static Picture4": {
+					"type": "picture",
+					"top": 0,
+					"left": 0,
+					"width": 600,
+					"height": 500,
+					"picture": "/RESOURCES/background.png",
+					"pictureFormat": "scaled"
+				},
+				"Rectangle2": {
+					"type": "rectangle",
+					"top": 246,
+					"left": 75,
+					"width": 200,
+					"height": 134,
+					"borderRadius": 20,
+					"fill": "#155BDC",
+					"stroke": "#FFFFFF",
+					"strokeWidth": 1
+				},
+				"BtnTasks": {
+					"type": "button",
+					"text": "📋  Tasks",
+					"top": 246,
+					"left": 75,
+					"width": 200,
+					"height": 134,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnTasks.4dm",
+					"style": "custom",
+					"strokeWidth": 1,
+					"stroke": "#FFFFFF",
+					"fill": "#FFFFFF",
+					"borderRadius": 16,
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"borderStyle": "none",
+					"customBackgroundPicture": ""
+				},
+				"Rectangle3": {
+					"type": "rectangle",
+					"top": 246,
+					"left": 325,
+					"width": 200,
+					"height": 134,
+					"borderRadius": 20,
+					"fill": "#155BDC",
+					"stroke": "#FFFFFF",
+					"strokeWidth": 1
+				},
+				"BtnEmails": {
+					"type": "button",
+					"text": "📧  Emails",
+					"top": 246,
+					"left": 325,
+					"width": 200,
+					"height": 134,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/BtnEmails.4dm",
+					"style": "custom",
+					"strokeWidth": 1,
+					"stroke": "#FFFFFF",
+					"fill": "#FFFFFF",
+					"borderRadius": 16,
+					"fontSize": 24,
+					"fontWeight": "bold",
+					"borderStyle": "none"
+				},
+				"TasksDescription": {
+					"type": "text",
+					"text": "View and manage tasks",
+					"top": 395,
+					"left": 75,
+					"width": 200,
+					"height": 24,
+					"fontSize": 13,
+					"fontWeight": "normal",
+					"stroke": "#FFFFFF",
+					"textAlign": "center"
+				},
+				"EmailsDescription": {
+					"type": "text",
+					"text": "Process emails with AI",
+					"top": 395,
+					"left": 325,
+					"width": 200,
+					"height": 24,
+					"fontSize": 13,
+					"fontWeight": "normal",
+					"stroke": "#FFFFFF",
+					"textAlign": "center"
+				},
+				"Footer": {
+					"type": "text",
+					"text": "Select a module to get started",
+					"top": 450,
+					"left": 0,
+					"width": 600,
+					"height": 24,
+					"fontSize": 13,
+					"fontWeight": "normal",
+					"stroke": "#8E8E93",
+					"textAlign": "center"
+				},
+				"Static Picture1": {
+					"type": "picture",
+					"top": 27,
+					"left": 75,
+					"width": 200,
+					"height": 199,
+					"picture": "/RESOURCES/4D.png",
+					"pictureFormat": "scaled"
+				},
+				"Static Picture3": {
+					"type": "picture",
+					"top": 64,
+					"left": 295,
+					"width": 167,
+					"height": 51,
+					"picture": "/RESOURCES/21 LTS.png",
+					"pictureFormat": "scaled"
+				},
+				"Rectangle1": {
+					"type": "rectangle",
+					"top": 129,
+					"left": 290,
+					"width": 230,
+					"height": 56,
+					"borderRadius": 20,
+					"fill": "#518FFD",
+					"stroke": "transparent"
+				},
+				"Subtitle": {
+					"type": "text",
+					"text": "AI Task Generator",
+					"top": 141,
+					"left": 290,
+					"width": 230,
+					"height": 33,
+					"fontSize": 24,
+					"fontWeight": "normal",
+					"stroke": "#FFFFFF",
+					"textAlign": "center",
+					"borderStyle": "none",
+					"fontFamily": "Avenir Light"
+				}
+			}
+		}
+	],
+	"geometryStamp": 131,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}
