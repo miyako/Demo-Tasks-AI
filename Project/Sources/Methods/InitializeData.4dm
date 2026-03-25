@@ -1,4 +1,4 @@
-//%attributes = {"lang":"en"}
+//%attributes = {"invisible":true}
 
 // InitializeData
 // Two-phase import: 1) Import all entities (get IDs), 2) Set relations per table
