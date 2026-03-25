@@ -90,7 +90,7 @@ Function analyzeAndCreateTask($email : cs.EmailsEntity)->$result : Object
 	End try
 	
 	If ($chatResponse.success=False)
-		$result.error:="AI request failed: "+String($chatResponse.errors)
+		$result.error:="AI request failed: "+$chatResponse.errors.join("\r")
 		return $result
 	End if 
 	

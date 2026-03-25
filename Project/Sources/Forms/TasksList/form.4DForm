@@ -57,8 +57,6 @@
 					"top": 60,
 					"width": 650,
 					"height": 575,
-					"fill": "#FFFFFF",
-					"stroke": "#E5E5E5",
 					"strokeWidth": 1,
 					"borderRadius": 12
 				},
@@ -68,8 +66,6 @@
 					"top": 60,
 					"width": 390,
 					"height": 575,
-					"fill": "#FFFFFF",
-					"stroke": "#E5E5E5",
 					"strokeWidth": 1,
 					"borderRadius": 12
 				},
@@ -104,9 +100,8 @@
 								"name": "HeaderSummary"
 							},
 							"name": "ColSummary",
-							"dataSource": "This.Summary",
+							"dataSource": "This:C1470.Summary",
 							"width": 164,
-							"truncateMode": "withEllipsis",
 							"footer": {
 								"name": "Footer1"
 							}
@@ -117,9 +112,8 @@
 								"name": "HeaderAssignee"
 							},
 							"name": "ColAssignee",
-							"dataSource": "This.Assignee.Name",
+							"dataSource": "This:C1470.Assignee.Name",
 							"width": 90,
-							"truncateMode": "withEllipsis",
 							"footer": {
 								"name": "Footer2"
 							}
@@ -130,9 +124,8 @@
 								"name": "HeaderDepartment"
 							},
 							"name": "ColDepartment",
-							"dataSource": "This.Assignee.Department.Name",
+							"dataSource": "This:C1470.Assignee.Department.Name",
 							"width": 110,
-							"truncateMode": "withEllipsis",
 							"footer": {
 								"name": "Footer3"
 							}
@@ -143,7 +136,7 @@
 								"name": "HeaderCreationDate"
 							},
 							"name": "ColCreationDate",
-							"dataSource": "This.CreationDate",
+							"dataSource": "This:C1470.CreationDate",
 							"dataSourceTypeHint": "date",
 							"width": 95,
 							"footer": {
@@ -156,7 +149,7 @@
 								"name": "HeaderDueDate"
 							},
 							"name": "ColDueDate",
-							"dataSource": "This.DueDate",
+							"dataSource": "This:C1470.DueDate",
 							"dataSourceTypeHint": "date",
 							"width": 85,
 							"footer": {
@@ -169,9 +162,8 @@
 								"name": "HeaderStatus"
 							},
 							"name": "ColStatus",
-							"dataSource": "This.Status",
+							"dataSource": "This:C1470.Status",
 							"width": 70,
-							"truncateMode": "withEllipsis",
 							"footer": {
 								"name": "Footer6"
 							}
@@ -186,8 +178,7 @@
 					"width": 300,
 					"height": 30,
 					"fontSize": 24,
-					"fontWeight": "bold",
-					"stroke": "#FFFFFF"
+					"fontWeight": "bold"
 				},
 				"ListboxTitle": {
 					"type": "text",
@@ -197,8 +188,7 @@
 					"width": 150,
 					"height": 26,
 					"fontSize": 18,
-					"fontWeight": "bold",
-					"stroke": "#2C2C2E"
+					"fontWeight": "bold"
 				},
 				"BtnRefresh": {
 					"type": "button",
@@ -213,7 +203,6 @@
 					"method": "ObjectMethods/BtnRefresh.4dm",
 					"style": "flat",
 					"fill": "#34C759",
-					"stroke": "#FFFFFF",
 					"fontSize": 13,
 					"fontWeight": "bold",
 					"borderRadius": 6
@@ -226,8 +215,7 @@
 					"width": 200,
 					"height": 26,
 					"fontSize": 18,
-					"fontWeight": "bold",
-					"stroke": "#2C2C2E"
+					"fontWeight": "bold"
 				},
 				"DetailDivider": {
 					"type": "rectangle",
@@ -246,8 +234,7 @@
 					"width": 120,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailSummary": {
 					"type": "input",
@@ -255,13 +242,11 @@
 					"top": 145,
 					"width": 350,
 					"height": 24,
-					"dataSource": "Form.currentTask.Summary",
+					"dataSource": "Form:C1466.currentTask.Summary",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelDescription": {
 					"type": "text",
@@ -271,8 +256,7 @@
 					"width": 120,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailDescription": {
 					"type": "input",
@@ -280,15 +264,13 @@
 					"top": 205,
 					"width": 335,
 					"height": 177,
-					"dataSource": "Form.currentTask.Description",
+					"dataSource": "Form:C1466.currentTask.Description",
 					"enterable": false,
 					"focusable": false,
 					"multiline": "yes",
 					"scrollbarVertical": "visible",
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 13,
-					"stroke": "#3C3C43"
+					"fontSize": 13
 				},
 				"LabelAssignee": {
 					"type": "text",
@@ -298,8 +280,7 @@
 					"width": 120,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailAssignee": {
 					"type": "input",
@@ -307,13 +288,11 @@
 					"top": 415,
 					"width": 165,
 					"height": 24,
-					"dataSource": "Form.currentTask.Assignee.Firstname+\" \"+Form.currentTask.Assignee.Name",
+					"dataSource": "Form:C1466.currentTask#Null:C1517 ? (Form:C1466.currentTask.Assignee.Firstname+\" \"+Form:C1466.currentTask.Assignee.Name) : \"\"",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelDepartment": {
 					"type": "text",
@@ -323,8 +302,7 @@
 					"width": 80,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailDepartment": {
 					"type": "input",
@@ -332,13 +310,11 @@
 					"top": 415,
 					"width": 165,
 					"height": 24,
-					"dataSource": "Form.currentTask.Assignee.Department.Name",
+					"dataSource": "Form:C1466.currentTask.Assignee.Department.Name",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelManager": {
 					"type": "text",
@@ -348,8 +324,7 @@
 					"width": 120,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailManager": {
 					"type": "input",
@@ -357,13 +332,11 @@
 					"top": 475,
 					"width": 350,
 					"height": 24,
-					"dataSource": "Form.currentTask.Assignee.Department.Manager.Firstname+\" \"+Form.currentTask.Assignee.Department.Manager.Name",
+					"dataSource": "Form:C1466.currentTask#Null:C1517 ? Form:C1466.currentTask.Assignee.Department.Manager.Firstname+\" \"+Form:C1466.currentTask.Assignee.Department.Manager.Name : \"\"",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelCreationDate": {
 					"type": "text",
@@ -373,8 +346,7 @@
 					"width": 80,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailCreationDate": {
 					"type": "input",
@@ -382,13 +354,11 @@
 					"top": 535,
 					"width": 110,
 					"height": 24,
-					"dataSource": "Form.currentTask.CreationDate",
+					"dataSource": "Form:C1466.currentTask.CreationDate",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelDueDate": {
 					"type": "text",
@@ -398,8 +368,7 @@
 					"width": 80,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailDueDate": {
 					"type": "input",
@@ -407,13 +376,11 @@
 					"top": 535,
 					"width": 110,
 					"height": 24,
-					"dataSource": "Form.currentTask.DueDate",
+					"dataSource": "Form:C1466.currentTask.DueDate",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				},
 				"LabelStatus": {
 					"type": "text",
@@ -423,8 +390,7 @@
 					"width": 80,
 					"height": 20,
 					"fontWeight": "normal",
-					"fontSize": 12,
-					"stroke": "#8E8E93"
+					"fontSize": 12
 				},
 				"DetailStatus": {
 					"type": "input",
@@ -432,13 +398,11 @@
 					"top": 595,
 					"width": 120,
 					"height": 24,
-					"dataSource": "Form.currentTask.Status",
+					"dataSource": "Form:C1466.currentTask.Status",
 					"enterable": false,
 					"focusable": false,
 					"borderStyle": "none",
-					"fill": "#F5F5F7",
-					"fontSize": 14,
-					"stroke": "#1F1F1F"
+					"fontSize": 14
 				}
 			}
 		}

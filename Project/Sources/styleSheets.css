@@ -1,16 +1,50 @@
 /* Tasks List Form Styles */
 
-/* Listbox styling */
-listbox {
-    background-color: white;
-    row-height: 32px;
+/* Listbox column styling */
+column {
+    truncateMode: none;
+    font-weight: normal;
+    font-size: 14px;
 }
 
-/* Listbox column text styling */
-listbox column {
-    color: #1C1C1E;
-    font-weight: normal;
-    font-size: 13px;
+@media (prefers-color-scheme: light) {
+    button {
+        stroke: black;
+    }
+    rectangle {
+        fill: automatic;
+        stroke: automatic;
+    }
+    input {
+        fill: automatic;
+        stroke: automatic;
+    }
+    /* Listbox styling */
+    listbox {
+        fill: automatic;
+        alternateFill: automaticAlternate;
+        row-height: 32px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    button {
+        stroke: white;
+    }
+    rectangle {
+        fill: #041E42;
+        stroke: automatic;
+    }
+    input {
+        fill: #041E42;
+        stroke: automatic;
+    }
+    /* Listbox styling */
+    listbox {
+        fill: #041E42;
+        alternateFill: #1F305E;
+        row-height: 32px;
+    }
 }
 
 /* Listbox header styling */
