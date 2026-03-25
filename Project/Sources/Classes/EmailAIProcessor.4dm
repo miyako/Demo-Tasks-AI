@@ -8,7 +8,7 @@ Class constructor
 	
 	// Initialize OpenAI client
 	// Note: API key should be configured in settings or environment
-	This.client:=cs.AIKit.OpenAI.new("***")  // Replace with actual key or use environment variable
+	This.client:=cs.AIKit.OpenAI.new(cs.AppUtils.me._getKeyForProvider("OpenAI"))
 	
 	
 Function analyzeAndCreateTask($email : cs.EmailsEntity)->$result : Object

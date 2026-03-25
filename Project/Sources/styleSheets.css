@@ -5,6 +5,7 @@ column {
     truncateMode: none;
     font-weight: normal;
     font-size: 14px;
+    enterable: false;
 }
 
 @media (prefers-color-scheme: light) {
