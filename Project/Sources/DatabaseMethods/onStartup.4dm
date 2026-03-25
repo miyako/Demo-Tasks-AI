@@ -15,6 +15,8 @@ $event.onTerminate:=Formula(LOG EVENT(Into 4D debug message; (["process"; $1.pid
 
 $port:=8080
 
+var $folder : 4D.Folder
+var $path : Text
 $folder:=$homeFolder.folder("Llama-3-ELYZA-JP-8B")
 $path:="Llama-3-ELYZA-JP-8B-Q4_K_M.gguf"
 $URL:="keisuke-miyako/Llama-3-ELYZA-JP-8B-gguf-q4_k_m"
@@ -34,6 +36,7 @@ $threads:=2
 var $cores : Integer
 $cores:=System info.cores\2
 
+var $options : Object
 $options:={\
 log_file: $logFile; \
 ctx_size: $batch_size*$batches*$threads; \
@@ -50,7 +53,9 @@ log_disable: False; \
 repeat_penalty: 1.1; \
 n_gpu_layers: -1}
 
+var $huggingfaces : cs.event.huggingfaces
 $huggingface:=cs.event.huggingface.new($folder; $URL; $path)
 $huggingfaces:=cs.event.huggingfaces.new([$huggingface])
 
+var $llama : cs.llama.llama
 $llama:=cs.llama.llama.new($port; $huggingfaces; $homeFolder; $options; $event)
